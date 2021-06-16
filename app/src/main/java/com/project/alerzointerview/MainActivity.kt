@@ -2,11 +2,10 @@ package com.project.alerzointerview
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import androidx.activity.viewModels
-import androidx.fragment.app.viewModels
-import com.project.alerzointerview.ui.PostsFragment
-import com.project.alerzointerview.viewmodel.ViewModelGetPosts
+import androidx.navigation.NavController
+import androidx.navigation.fragment.NavHostFragment
 import dagger.hilt.android.AndroidEntryPoint
+import kotlinx.android.synthetic.main.activity_main.*
 
 @AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
@@ -14,10 +13,10 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val fragment = PostsFragment()
-        supportFragmentManager.beginTransaction()
-            .replace(R.id.fr_cardInfo, fragment)
-            .addToBackStack(null)
-            .commitAllowingStateLoss()
+
+    }
+
+    fun getNavController():NavController{
+        return NavHostFragment.findNavController(fr_pageSwitcher)
     }
 }
