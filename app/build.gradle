@@ -1,7 +1,12 @@
-plugins {
-    id 'com.android.application'
-    id 'kotlin-android'
-}
+apply plugin: 'com.android.application'
+
+apply plugin: 'kotlin-android'
+
+apply plugin: 'kotlin-android-extensions'
+
+apply plugin: 'kotlin-kapt'
+
+apply plugin: 'dagger.hilt.android.plugin'
 
 android {
     compileSdkVersion 30
@@ -34,12 +39,70 @@ android {
 
 dependencies {
 
-    implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
-    implementation 'androidx.core:core-ktx:1.5.0'
-    implementation 'androidx.appcompat:appcompat:1.3.0'
-    implementation 'com.google.android.material:material:1.3.0'
-    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
-    testImplementation 'junit:junit:4.+'
-    androidTestImplementation 'androidx.test.ext:junit:1.1.2'
-    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+
+    implementation "androidx.core:core-ktx:$androidXCoreKtxVersion"
+    implementation "androidx.appcompat:appcompat:$appCompatVersion"
+    implementation "androidx.constraintlayout:constraintlayout:$constraintLayoutVersion"
+
+    implementation "androidx.lifecycle:lifecycle-extensions:$archLifecycleVersion"
+
+
+    implementation "androidx.legacy:legacy-support-v4:$androidXLegacySupportV4Version"
+    implementation "androidx.lifecycle:lifecycle-extensions:$androidXLifecycleExtensionVersion"
+    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:$androidXLifecycleViewModelKtxVersion"
+    implementation "com.google.android.material:material:$googleAndroidMaterialVersion"
+
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    testImplementation "junit:junit:$junitVersion"
+    testImplementation "org.hamcrest:hamcrest-all:$hamcrestVersion"
+
+    androidTestImplementation "androidx.test:runner:$androidXTestVersion"
+    androidTestImplementation "androidx.test.ext:junit:$runnerExtVersion"
+    androidTestImplementation "androidx.test:rules:$androidXTestVersion"
+    androidTestImplementation "androidx.test.espresso:espresso-core:$espressoVersion"
+
+
+    // Retrofit
+    implementation "com.squareup.retrofit2:retrofit:$squareupRetrofit2Version"
+    implementation "com.squareup.retrofit2:converter-moshi:$squareupRetrofit2ConverterMoshiVersion"
+
+
+    // Moshi
+    implementation "com.squareup.moshi:moshi:$squareupMoshiVersion"
+    implementation "com.squareup.moshi:moshi-kotlin:$squareupMoshiKotlinVersion"
+
+    implementation "androidx.navigation:navigation-fragment-ktx:$androidXNavigationFragmentKtxVersion"
+    implementation "androidx.navigation:navigation-ui-ktx:$androidXNavigationUiKtxVersion"
+
+    implementation "com.squareup.okhttp3:okhttp:$squareUpOkHttp3Version"
+
+    // Kotlin coroutines
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:$kotlinXCoroutinesCoreVersion"
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:$kotlinXCoroutinesAndroidVersion"
+
+    // Http interceptor
+    implementation "com.squareup.okhttp3:logging-interceptor:$squareupOkHttp3LoggingInterceptorVersion"
+
+
+    implementation "androidx.fragment:fragment-ktx:$androidXFragmentKtxVersion"
+
+    //Hilt
+
+    implementation("com.google.dagger:hilt-android:$hilt_version")
+    kapt("com.google.dagger:hilt-android-compiler:$hilt_version")
+    kapt "androidx.hilt:hilt-compiler:1.0.0"
+
+
+    implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
+
+    def lifecycle_version = "2.3.1"
+    implementation "androidx.lifecycle:lifecycle-livedata-ktx:$lifecycle_version"
+    implementation "androidx.lifecycle:lifecycle-common-java8:$lifecycle_version"
+
+
+    def gsonConverter_version = "2.5.0"
+    implementation "com.squareup.retrofit2:converter-gson:$gsonConverter_version"
+
 }
