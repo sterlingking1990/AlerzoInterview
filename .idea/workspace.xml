@@ -10,13 +10,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a5ab150d-7ff8-4e1f-a659-1d0ed877b132" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_auto_value_auto_value_annotations_1_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_findbugs_jsr305_3_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_errorprone_error_prone_annotations_2_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_guava_failureaccess_1_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_guava_guava_30_1_1_android.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_guava_listenablefuture_9999_0_empty_to_avoid_conflict_with_guava.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_j2objc_j2objc_annotations_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_truth_truth_1_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_checkerframework_checker_compat_qual_2_5_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_checkerframework_checker_qual_3_13_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_ow2_asm_asm_9_1.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/app/AlerzoInterview.app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/AlerzoInterview.app.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/project/alerzointerview/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/project/alerzointerview/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/project/alerzointerview/network/NetworkDIModule.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/project/alerzointerview/network/NetworkDIModule.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/project/alerzointerview/ui/PostsFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/project/alerzointerview/ui/PostsFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/project/alerzointerview/ui/SignInFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/project/alerzointerview/ui/SignInFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/project/alerzointerview/ui/SignupFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/project/alerzointerview/ui/SignupFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/project/alerzointerview/viewmodel/ViewModelGetPosts.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/project/alerzointerview/viewmodel/ViewModelGetPosts.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_posts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_posts.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_sign_in.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_sign_in.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_signup.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_signup.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/themes.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,15 +74,19 @@
       <list>
         <option value="Kotlin Interface" />
         <option value="Kotlin Data Class" />
-        <option value="Kotlin Class" />
         <option value="navigationResourceFile" />
+        <option value="valueResourceFile" />
+        <option value="layoutResourceFile" />
+        <option value="resourceFile" />
+        <option value="JUnit3 Test Class" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="ftNavigationSetup" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -70,14 +102,117 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit3" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3" value="junit.framework.TestCase" />
     <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/test/java/com/project/alerzointerview" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/font" />
     <property name="project.structure.last.edited" value="SDK Location" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="emulator" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.project.alerzointerview.util" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="junit.framework.TestCase" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/res/font" />
+      <recent name="$PROJECT_DIR$/app/src/main/res/drawable-v24" />
+      <recent name="$PROJECT_DIR$/app/src/main/res/drawable" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Android JUnit.ValidationTest.test">
+    <configuration name="ValidationTest.test" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AlerzoInterview.app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.project.alerzointerview.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.project.alerzointerview.util" />
+      <option name="MAIN_CLASS_NAME" value="com.project.alerzointerview.util.ValidationTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ValidationTest.testEmailWithoutDomainReturnsFalse" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AlerzoInterview.app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.project.alerzointerview.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.project.alerzointerview.util" />
+      <option name="MAIN_CLASS_NAME" value="com.project.alerzointerview.util.ValidationTest" />
+      <option name="METHOD_NAME" value="testEmailWithoutDomainReturnsFalse" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ValidationTest.testEmailWithoutDotExtension" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AlerzoInterview.app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.project.alerzointerview.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.project.alerzointerview.util" />
+      <option name="MAIN_CLASS_NAME" value="com.project.alerzointerview.util.ValidationTest" />
+      <option name="METHOD_NAME" value="testEmailWithoutDotExtension" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ValidationTest.testFirstNameOrLastNameProvidedReturnsTrue" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AlerzoInterview.app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.project.alerzointerview.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.project.alerzointerview.util" />
+      <option name="MAIN_CLASS_NAME" value="com.project.alerzointerview.util.ValidationTest" />
+      <option name="METHOD_NAME" value="testFirstNameOrLastNameProvidedReturnsTrue" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ValidationTest.testOnlyDigitsEnteredForFirstOrLastNameReturnsFalse" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AlerzoInterview.app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.project.alerzointerview.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.project.alerzointerview.util" />
+      <option name="MAIN_CLASS_NAME" value="com.project.alerzointerview.util.ValidationTest" />
+      <option name="METHOD_NAME" value="testOnlyDigitsEnteredForFirstOrLastNameReturnsFalse" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -142,6 +277,15 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Android JUnit.ValidationTest.test" />
+        <item itemvalue="Android JUnit.ValidationTest.testEmailWithoutDotExtension" />
+        <item itemvalue="Android JUnit.ValidationTest.testEmailWithoutDomainReturnsFalse" />
+        <item itemvalue="Android JUnit.ValidationTest.testFirstNameOrLastNameProvidedReturnsTrue" />
+        <item itemvalue="Android JUnit.ValidationTest.testOnlyDigitsEnteredForFirstOrLastNameReturnsFalse" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -165,30 +309,53 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="499" y="173" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1623858462730" />
-    <state x="308" y="212" key="AndroidCreateResourceDirectoryDialog" timestamp="1623874763889">
+    <state x="411" y="291" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1623941832095">
       <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="411" y="291" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1440.900@0.0.1440.900" timestamp="1623941832095" />
+    <state x="350" y="230" key="AndroidCreateResourceDirectoryDialog" timestamp="1623883422109">
+      <screen x="54" y="23" width="1386" height="877" />
     </state>
     <state x="308" y="212" key="AndroidCreateResourceDirectoryDialog/0.0.1440.900@0.0.1440.900" timestamp="1623874763889" />
-    <state x="308" y="212" key="AndroidCreateResourceFileDialog" timestamp="1623874801383">
+    <state x="350" y="230" key="AndroidCreateResourceDirectoryDialog/54.23.1386.877@54.23.1386.877" timestamp="1623883422109" />
+    <state x="308" y="212" key="AndroidCreateResourceFileDialog" timestamp="1623923740546">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="308" y="212" key="AndroidCreateResourceFileDialog/0.0.1440.900@0.0.1440.900" timestamp="1623874801383" />
-    <state width="1396" height="238" key="GridCell.Tab.0.bottom" timestamp="1623873966880">
+    <state x="308" y="212" key="AndroidCreateResourceFileDialog/0.0.1440.900@0.0.1440.900" timestamp="1623923740546" />
+    <state x="350" y="230" key="AndroidCreateResourceFileDialog/54.23.1386.877@54.23.1386.877" timestamp="1623884381854" />
+    <state x="542" y="234" key="AndroidCreateXmlResourceDialog" timestamp="1623934266455">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1396" height="238" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1623873966880" />
-    <state width="1396" height="238" key="GridCell.Tab.0.center" timestamp="1623873966879">
+    <state x="542" y="234" key="AndroidCreateXmlResourceDialog/0.0.1440.900@0.0.1440.900" timestamp="1623934266455" />
+    <state width="1396" height="237" key="GridCell.Tab.0.bottom" timestamp="1623960019587">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1396" height="238" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1623873966879" />
-    <state width="1396" height="238" key="GridCell.Tab.0.left" timestamp="1623873966878">
+    <state width="1396" height="237" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1623960019587" />
+    <state width="1336" height="223" key="GridCell.Tab.0.bottom/54.23.1386.877@54.23.1386.877" timestamp="1623880936688" />
+    <state width="1396" height="237" key="GridCell.Tab.0.center" timestamp="1623960019525">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1396" height="238" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1623873966878" />
-    <state width="1396" height="238" key="GridCell.Tab.0.right" timestamp="1623873966879">
+    <state width="1396" height="237" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1623960019525" />
+    <state width="1336" height="223" key="GridCell.Tab.0.center/54.23.1386.877@54.23.1386.877" timestamp="1623880936687" />
+    <state width="1396" height="237" key="GridCell.Tab.0.left" timestamp="1623960019523">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1396" height="238" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1623873966879" />
+    <state width="1396" height="237" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1623960019523" />
+    <state width="1336" height="223" key="GridCell.Tab.0.left/54.23.1386.877@54.23.1386.877" timestamp="1623880936687" />
+    <state width="1396" height="237" key="GridCell.Tab.0.right" timestamp="1623960019560">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1396" height="237" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1623960019560" />
+    <state width="1336" height="223" key="GridCell.Tab.0.right/54.23.1386.877@54.23.1386.877" timestamp="1623880936688" />
+    <state x="491" y="229" key="chooseDestDirectoryDialog" timestamp="1623941879863">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="491" y="229" key="chooseDestDirectoryDialog/0.0.1440.900@0.0.1440.900" timestamp="1623941879863" />
+    <state x="527" y="246" key="chooseDestDirectoryDialog/54.23.1386.877@54.23.1386.877" timestamp="1623884106429" />
+    <state x="461" y="255" key="org.jetbrains.kotlin.idea.testIntegration.KotlinCreateTestDialog" timestamp="1623941879945">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="461" y="255" key="org.jetbrains.kotlin.idea.testIntegration.KotlinCreateTestDialog/0.0.1440.900@0.0.1440.900" timestamp="1623941879945" />
     <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1623843545730">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

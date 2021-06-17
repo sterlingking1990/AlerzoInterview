@@ -18,12 +18,10 @@ import javax.inject.Singleton
 @Module
 abstract class NetworkDIModule {
 
-
     @Binds
     abstract fun bindPostsServiceApi(postsServiceApiMethodImpl:PostsServiceApiMethodImpl): PostsServiceApiMethod
 
     @Binds
     abstract fun bindPostsServiceRepository(postsServiceRepositoryImpl: PostsServiceRepositoryImpl):PostsServiceRepository
-
 
 }
