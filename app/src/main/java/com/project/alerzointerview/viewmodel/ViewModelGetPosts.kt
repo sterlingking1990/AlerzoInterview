@@ -28,7 +28,6 @@ class ViewModelGetPosts @Inject constructor(private val postsServiceRepository: 
         get() = _networkResponse
 
     fun getPosts(){
-        if(networkHelper.isNetworkConnected()){
             viewModelScope.launch {
                 _getPostsResponse.postValue(Resource.loading())
                 try{
@@ -46,10 +45,15 @@ class ViewModelGetPosts @Inject constructor(private val postsServiceRepository: 
                     _getPostsResponse.postValue(Resource.error("Error --> ${e.message}"))
                 }
             }
+
+    }
+
+    fun checkNetwork(){
+        if(networkHelper.isNetworkConnected()){
+            _networkResponse.postValue(true)
         }
         else{
             _networkResponse.postValue(false)
         }
-
     }
 }
