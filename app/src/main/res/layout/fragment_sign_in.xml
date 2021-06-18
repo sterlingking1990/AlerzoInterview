@@ -47,7 +47,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:text="Lets Sign You In"
+        android:text="@string/lets_sign_you_in"
         android:textColor="#2b2b2b"
         android:fontFamily="@font/myfont"
         android:textSize="30sp"
@@ -62,7 +62,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:text="Welcome back, You've been missed!"
+        android:text="@string/welcome_back_you_ve_been_missed"
         android:textSize="16sp"
         android:textColor="#878787"
         android:fontFamily="@font/gilroy_light"
@@ -88,7 +88,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="textEmailAddress"
-                android:hint="Email Address"
+                android:hint="@string/email_address"
                 android:background="@drawable/cornered_shape"
                 android:imeOptions="actionNext"
                 android:maxLines="1"
@@ -111,7 +111,7 @@
             android:id="@+id/et_password"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Password"
+            android:hint="@string/password"
             android:inputType="textPassword"
             android:drawableEnd="@drawable/ic_password_toggle_off"
             android:background="@drawable/cornered_shape"
@@ -133,7 +133,7 @@
         app:layout_constraintTop_toBottomOf="@id/tl_password"
         app:layout_constraintStart_toStartOf="@id/guideline5"
         app:layout_constraintEnd_toEndOf="@id/guideline4"
-        android:text="Log In"
+        android:text="@string/log_in"
         android:background="@drawable/button_background_with_cornered_shape"/>
 
     <LinearLayout
@@ -153,7 +153,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Don't have an account?"
+            android:text="@string/don_t_have_an_account"
 
             android:layout_weight="0.7"
             android:textSize="16sp"/>
@@ -166,10 +166,11 @@
             android:clickable="true"
             android:background="?android:attr/selectableItemBackground"
             android:padding="10dp"
-            android:text="Sign Up"
+            android:text="@string/sign_up"
             android:textColor="#4D14DE"
             android:textColorLink="@color/teal_200"
-            android:textSize="18sp" />
+            android:textSize="18sp"
+            android:focusable="true" />
     </LinearLayout>
 
     <androidx.constraintlayout.widget.Guideline
